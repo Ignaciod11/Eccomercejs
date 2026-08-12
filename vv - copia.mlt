@@ -1,0 +1,354 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.30.0" title="Shotcut version 25.01.25" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="720" height="1280" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="9" display_aspect_den="16" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:24.440">
+    <property name="length">00:00:24.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:24.440"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/pnd.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">1024</property>
+    <property name="meta.media.height">1024</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-04-19T18:13:18</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">pnd.png</property>
+    <property name="shotcut:hash">6e246653ce94c17e201dd2956e1c02fc</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain0" out="00:00:14.760">
+    <property name="length">00:00:14.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/5644248-uhd_2160_4096_25fps (1).mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">25</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">2160</property>
+    <property name="meta.media.0.codec.height">4096</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.color_trc">1</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">9029140</property>
+    <property name="meta.attr.0.stream.creation_time.markup">2020-10-19T20:26:42.000000Z</property>
+    <property name="meta.attr.0.stream.handler_name.markup">L-SMASH Video Handler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">AVC Coding</property>
+    <property name="meta.attr.major_brand.markup">mp42</property>
+    <property name="meta.attr.minor_version.markup">0</property>
+    <property name="meta.attr.compatible_brands.markup">mp42mp41isomavc1</property>
+    <property name="meta.attr.creation_time.markup">2020-10-19T20:26:42.000000Z</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2020-10-19T20:26:42</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">25</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">1</property>
+    <property name="meta.media.has_b_frames">2</property>
+    <property name="meta.media.width">2160</property>
+    <property name="meta.media.height">4096</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:hash">ef1190e31c812f66bc1d5390714c6598</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">5644248-uhd_2160_4096_25fps (1).mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/OIP.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">206</property>
+    <property name="meta.media.height">206</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-04-19T18:44:03</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">OIP.jpg</property>
+    <property name="shotcut:hash">45315c25a909eb627764fe3fca904f06</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/auris.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">474</property>
+    <property name="meta.media.height">474</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-04-19T18:22:12</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">auris.jpg</property>
+    <property name="shotcut:hash">41c242f0910d0fb257a7cd573754e717</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain1" out="00:00:15.680">
+    <property name="length">00:00:15.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/854100-hd_1920_1080_25fps.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">25</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.color_trc">1</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">4131438</property>
+    <property name="meta.attr.0.stream.creation_time.markup">2017-03-30T11:33:28.000000Z</property>
+    <property name="meta.attr.0.stream.handler_name.markup">L-SMASH Video Handler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">AVC Coding</property>
+    <property name="meta.attr.major_brand.markup">mp42</property>
+    <property name="meta.attr.minor_version.markup">0</property>
+    <property name="meta.attr.compatible_brands.markup">mp42mp41isomavc1</property>
+    <property name="meta.attr.creation_time.markup">2017-03-30T11:33:28.000000Z</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2017-03-30T11:33:28</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">25</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">1</property>
+    <property name="meta.media.has_b_frames">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:hash">0a28f6bdd6fb47ab636e514588228e81</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">854100-hd_1920_1080_25fps.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:00:19.960">
+    <property name="length">00:00:20.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/3141210-uhd_2560_1440_25fps.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">25</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">2560</property>
+    <property name="meta.media.0.codec.height">1440</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.color_trc">1</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">11974122</property>
+    <property name="meta.attr.0.stream.creation_time.markup">2019-10-28T08:53:47.000000Z</property>
+    <property name="meta.attr.0.stream.handler_name.markup">L-SMASH Video Handler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.0.stream.encoder.markup">AVC Coding</property>
+    <property name="meta.attr.major_brand.markup">mp42</property>
+    <property name="meta.attr.minor_version.markup">0</property>
+    <property name="meta.attr.compatible_brands.markup">mp42mp41isomavc1</property>
+    <property name="meta.attr.creation_time.markup">2019-10-28T08:53:47.000000Z</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2019-10-28T08:53:47</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">25</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">1</property>
+    <property name="meta.media.has_b_frames">2</property>
+    <property name="meta.media.width">2560</property>
+    <property name="meta.media.height">1440</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:hash">3d7757f0991cad3050859774ae67a454</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">3141210-uhd_2560_1440_25fps.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/tuc.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">1024</property>
+    <property name="meta.media.height">1024</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2025-04-19T18:41:46</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">tuc.png</property>
+    <property name="shotcut:hash">ed270ac2819e4b6901864d64e084fb69</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:01.480"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:03.400"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:02.080"/>
+    <entry producer="producer2" in="00:00:00.040" out="00:00:01.720"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:04.200"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:00:06.360"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:05.000"/>
+  </playlist>
+  <chain id="chain3" out="00:00:24.440">
+    <property name="length">00:00:24.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/pulit/Downloads/Vídeo sin título ‐ Hecho con Clipchamp (2).mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">30</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.0.codec.width">1280</property>
+    <property name="meta.media.0.codec.height">720</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">12346</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.media.1.stream.type">audio</property>
+    <property name="meta.media.1.codec.sample_fmt">fltp</property>
+    <property name="meta.media.1.codec.sample_rate">48000</property>
+    <property name="meta.media.1.codec.channels">2</property>
+    <property name="meta.media.1.codec.layout">stereo</property>
+    <property name="meta.media.1.codec.name">aac</property>
+    <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+    <property name="meta.media.1.codec.bit_rate">192094</property>
+    <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+    <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">https://clipchamp.com</property>
+    <property name="meta.attr.comment.markup">Create videos with https://clipchamp.com/en/video-editor - free online video editor, video compressor, video converter.</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2025-04-19T18:41:24</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">30</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">1280</property>
+    <property name="meta.media.height">720</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:hash">8a861e2d629f4c84e86b5dbe9f3b2ea3</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Vídeo sin título ‐ Hecho con Clipchamp (2).mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:24.440"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 25.01.25" in="00:00:00.000" out="00:00:24.440">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
