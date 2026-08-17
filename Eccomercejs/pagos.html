@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="diseño2.css">
+</head>
+<body>
+    <header>
+<a href="ind.html">
+            <img class="salida" src="images/flecha-izquierda.png" alt="flecha">
+</a>
+<p class="orden_compra">Order summary </p>
+    </header>
+    <main>
+<section class="datos_cliente">
+<p class="informacion">customer information</p>
+<div class="input_info">
+    <input class="input_cliente" type="text" placeholder="email">
+    <div class="datos">
+        <input class="nombre" type="text" placeholder="Name">
+    <input class="apellido" type="text" placeholder="last name">
+    </div>
+</div>
+<form class="guardar_info">
+    <input type="checkbox" id="guardar" name="guardado" value="si" checked>
+    <label for="guardado">Save this information for next time</label>
+</form>
+</section>
+<section class="datos_cliente">
+<p class="informacion">mailing address</p>
+<div class="input_info">
+    <input class="direccion" type="text" placeholder="Address">
+    <div class="datos2">
+         <input class="departamento" type="text" placeholder="Department">
+    <input class="ciudad" type="text" placeholder="City">
+    </div>
+    </div>
+<article class="regiones">
+    <select name="region" id="region">
+    <option value="">Country/Region</option>
+    <option value="mexico">Mexico</option>
+    <option value="argentina">Argentina</option>
+    <option value="colombia">Colombia</option>
+</select>
+<select name="estado" id="estado">
+    <option value="">State</option>
+    <option value="cdmx">CDMX</option>
+    <option value="jalisco">Jalisco</option>
+    <option value="bogota">Bogotá</option>
+</select>
+</article>
+<p class="error"></p>
+<div class="pagar_ahora">
+    <button class="pagar">Pay now</button>
+</div>
+</section>
+<article class="confirmar_pago">
+
+
+</article>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="pagos.js"></script>
+</body>
+</html>

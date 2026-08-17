@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 16px;
+}
+header{
+   border-bottom: solid 1px rgb(207, 203, 203);
+   box-shadow: 1px 1px 8px ;
+   display: flex;
+   align-items: center;
+padding-left: 1rem;
+gap: 20px;
+
+}
+.orden_compra{
+font-size: 1.4rem;
+font-weight: 700;
+}
+.salida{
+    width: 2rem;
+height: auto;
+cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.informacion{
+margin-top: 2.5rem;
+font-size: 1.3rem;
+padding-left: 20px;
+font-weight: 600;
+}
+.input_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 90%;
+}
+.input_cliente,
+.nombre,
+.apellido,
+.direccion,
+.departamento,
+.ciudad{
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: 2px solid rgb(40, 55, 75);
+    outline: none;
+    width: 80%;
+}
+.datos, 
+.datos2{
+display: flex;
+justify-content: center;
+flex-direction: column;
+justify-content: center;
+width: 80%;
+max-width: 90%;
+gap: 15px;
+}
+.nombre,
+.apellido,
+.departamento,
+.ciudad{
+    width: 100%;
+}
+.input_cliente:hover,
+.nombre:hover,
+.apellido:hover,
+.direccion:hover,
+.departamento:hover,
+.ciudad:hover{
+    border: 2px solid rgb(160, 174, 192);
+
+}
+
+.guardar_info{
+    margin-top: 1.6rem;
+    padding-left: 1.5rem;
+}
+.regiones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+#region,
+#estado{
+   padding: 0.7rem;
+   padding-right: 2rem;
+margin-right: 1rem;
+border-radius: 10px;
+border: 2px solid  rgb(40, 55, 75);
+outline: none;
+}
+#region:hover,
+#estado:hover{
+    border: 2px solid rgb(160, 174, 192);
+}
+.pagar_ahora{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 2rem;
+max-width: 70%;
+}
+.pagar{
+    padding: 0.7rem;
+    width: 60%;
+margin-left: 6rem;
+border-radius: 6px;
+background-color: rgb(40, 55, 75) ;
+color: white;
+border: 2px solid  rgb(40, 55, 75);
+transition: transform 0.12s ease, filter 0.12s ease, background-color 0.2s ease, border-color 0.2s ease;
+cursor: pointer;
+}
+.pagar:hover{
+    background-color: rgba(40, 55, 75, 0.9);
+    border-color: rgba(40, 55, 75, 0.9);
+    filter: brightness(1.08);
+}
+.pagar:active{
+    transform: scale(0.97);
+    filter: brightness(0.92);
+}
+.error{
+    font-size: 0.9rem;
+    color: red;
+    padding-left: 0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width:700px){
+    main{
+display: flex;
+flex-direction: none;
+    }
+.datos,
+.datos2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pagar{
+margin-right: -6rem;
+}
+.regiones{
+   margin-right: 7rem;
+}
+.error{
+    text-align: center;
+}
+}
+
+

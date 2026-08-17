@@ -135,6 +135,7 @@ margin-top: 22px;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.5rem;
     position: relative;
 }
@@ -164,6 +165,27 @@ margin-top: 22px;
     background: white;
     border-radius: 1rem;
     padding: 1rem;
+    position: relative;
+}
+.carrito__eliminar{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border: none;
+    background: rgba(40,55,75,0.88);
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    z-index: 10;
+}
+.carrito__eliminar:hover{
+    background: rgb(29, 42, 61);
 }
 .carrito__img{
     width: 6.5rem;
@@ -238,6 +260,14 @@ border-radius: 10px;
     flex-direction: column;
     gap: 0.9rem;
     align-items: center;
+ 
+}
+.boton_pago{
+width: 6rem;
+height: 3rem;
+border-radius: 10px;
+background-color:rgb(39, 41, 61) ;
+color: white;
 }
 .tarjetas__texto{
     margin: 0;
@@ -301,7 +331,7 @@ article{
     gap: 0.7rem;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
 }
 
 .uno,
@@ -313,6 +343,7 @@ article{
     border-radius: 10px;
     border: 1px solid #d8d8d8;
 }
+
 h2{
     font-size: 1.5rem;
 padding-right: 2.1rem;
@@ -390,8 +421,8 @@ padding-left: .8rem;
 content: "";
 width: 2rem;
 height: 2rem;
-background-image: url("aprobar.png");
-margin-top: -.4rem;
+background-image: url("images/aprobar.png");
+margin-top: -0.4rem;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
